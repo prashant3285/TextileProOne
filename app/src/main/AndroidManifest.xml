@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tk.paarshvchitra.textilepro.textilepro">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".yarnActivity"
+            android:label="@string/title_activity_yarn"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.paarshvchitra.textilepro.textilepro.MainActivity" />
+        </activity>
+        <activity
+            android:name=".yarnDenierActivity"
+            android:label="@string/title_activity_yarn_denier"
+            android:parentActivityName=".yarnActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.paarshvchitra.textilepro.textilepro.yarnActivity" />
+        </activity>
+        <activity
+            android:name=".yarnDiameterActivity"
+            android:label="@string/title_activity_yarn_diameter"
+            android:parentActivityName=".yarnActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.paarshvchitra.textilepro.textilepro.yarnActivity" />
+        </activity>
+    </application>
+
+</manifest>

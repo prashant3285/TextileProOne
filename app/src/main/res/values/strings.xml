@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TextilePRO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About</string>
+    <string name="welcome">CHOOSE SECTION</string>
+    <string name="yarn">Yarn</string>
+    <string name="title_activity_yarn">Yarn</string>
+    <string name="welcomeYarn">CHOOSE TOOL</string>
+    <string name="denier">Yarn Linear Density</string>
+    <string name="title_activity_yarn_denier">Yarn Linear Density</string>
+    <string name="denierDenier">Choose Input Unit</string>
+    <string name="denierCount">Count Ne\'s</string>
+    <string name="convert">Convert</string>
+    <string name="select">Select</string>
+    <string name="ldtext1">Choose Input Unit</string>
+    <string name="buttonConvert">Compute</string>
+    <string name="lddenier">Denier</string>
+    <string name="ldDebier">Denier</string>
+    <string name="ldNe">Ne</string>
+    <string name="ldNm">Nm</string>
+    <string name="ldTex">Tex</string>
+    <string name="ldDtex">dTex</string>
+    <string name="ldDandee">Dandee</string>
+    <string name="ldWorsted">Worsted</string>
+    <string name="ldWoolen">Woolen</string>
+
+    <string-array name="unit_array">
+        <item>Denier</item>
+        <item>Ne</item>
+        <item>Nm</item>
+        <item>Tex</item>
+        <item>dTex</item>
+        <item>Dandee</item>
+        <item>Worsted</item>
+        <item>Woolen</item>
+    </string-array>
+
+    <string name="title_activity_yarn_diameter">Yarn Diameter (mono)</string>
+    <string name="choosePolymer">Choose Polymer</string>
+    <string name="ldDensity">Density</string>
+    <string name="chooseDiameter">Choose Method</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="arrayPolymer">
+        <item>PP</item>
+        <item>PA 6</item>
+        <item>PA 6,6</item>
+        <item>PET</item>
+        <item>PA 12</item>
+        <item>PA 6,12</item>
+        <item>PA 6,11</item>
+        <item>LDPE</item>
+        <item>HDPE</item>
+        <item>p-Aramid</item>
+        <item>m-Aramid</item>
+        <item>PS</item>
+        <item>PMMA</item>
+        <item>Carbon</item>
+        <item>Carbon HM</item>
+        <item>Carbon UHM</item>
+        <item>PAN</item>
+    </string-array>
+
+    <string-array name="arrayMethod">
+        <item>Diameter (mm)</item>
+        <item>Denier</item>
+    </string-array>
+
+</resources>
